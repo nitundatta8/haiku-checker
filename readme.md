@@ -1,12 +1,12 @@
-# _Costco Game_
+# _Haiku Game Checker_
 
-#### Allows user to choose a character class and name. The user can then attempt to negotiate with computer "bosses" to increase their seniority. For certain increases in seniority, the player's timeoff increases. Once the player's time off reaches a certain level, they win._, 4/15/2020_
+#### An exercise for BDD with Jest. 4/16/2020_
 
-#### By _**DJ Zevenbergen, Julia Seidman, Nitun Datta, Mikah Mathews**_
+#### By _**Nitun Datta**_
 
 ## Description
 
-_This web application uses classes, looping, and arrays to create a user's character. The user can then attempt to negotiate with computer "bosses" to increase their seniority. For certain increases in seniority, the player's timeoff increases. Once the player's time off reaches a certain level, they win._
+_This web application that checks whether a poem is in fact a haiku_
 
 ## Setup/Installation Requirements
 
@@ -17,10 +17,10 @@ _This web application uses classes, looping, and arrays to create a user's chara
 
 ## Specs
 
-* - The program creates a character based on the user's selection
-    * Input: Name: "Ted" Job: "PizzaCutter" 
-    * Output: Your Character: "Ted, a Pizza Cutter in Warehouse 327.  Your Seniority Level is 2.  Your Stress Level is 3.  You have 0 days time off.  Your goal is to reach 5 days off before the stress forces you to quit."
-
+* - The poem should has three lines.
+    * Input:A poem
+    * Output : poam has three line
+    
 * - The program presents the character with "opponents" in the form of conflicts with co-workers. 
     * Input: "start Game"
     * Output:  "Manager Jim-Bob wants to talk about your lack of initiative. Will you engage or will you shy away?"
